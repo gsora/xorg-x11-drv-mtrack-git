@@ -1,6 +1,6 @@
 Name:           xorg-x11-drv-mtrack
 Version:        git
-Release:        1%{?dist}
+Release:        2%{?dist}
 Summary:        Multitouch touchpad driver
 
 License:        GPLv2
@@ -39,6 +39,24 @@ libtool --finish %{_buildrootdir}/xorg-x11-drv-mtrack*/usr/lib64/xorg/modules/in
 
 
 %changelog
+* Thu Jun 09 2016 Gianguido Sorà <g.sora4@gmail.com> git-2
+- add git as a build dependency (g.sora4@gmail.com)
+
+* Thu Jun 09 2016 Gianguido Sorà <g.sora4@gmail.com>
+- add git as a build dependency (g.sora4@gmail.com)
+
+* Thu Jun 09 2016 Gianguido Sorà <g.sora4@gmail.com>
+- add git as a build dependency (g.sora4@gmail.com)
+
+* Thu Jun 09 2016 Gianguido Sorà <g.sora4@gmail.com>
+- add git as a build dependency (g.sora4@gmail.com)
+
+* Thu Jun 09 2016 Gianguido Sorà <g.sora4@gmail.com>
+- add git as a build dependency (g.sora4@gmail.com)
+
+* Thu Jun 09 2016 Gianguido Sorà <g.sora4@gmail.com>
+- add git as a build dependency (g.sora4@gmail.com)
+
 * Thu Jun 09 2016 Gianguido Sorà <g.sora4@gmail.com> git-1
 - new package built with tito
 
