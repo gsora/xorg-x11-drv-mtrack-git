@@ -39,6 +39,9 @@ libtool --finish %{_buildrootdir}/xorg-x11-drv-mtrack*/usr/lib64/xorg/modules/in
 
 
 %changelog
+* Thu Jun 09 2016 Gianguido Sorà <g.sora4@gmail.com>
+- remove fedora release from version tag (g.sora4@gmail.com)
+
 * Thu Jun 09 2016 Gianguido Sorà <g.sora4@gmail.com> git-2
 - add git as a build dependency (g.sora4@gmail.com)
 
