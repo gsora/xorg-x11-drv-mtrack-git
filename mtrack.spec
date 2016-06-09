@@ -1,6 +1,6 @@
 Name:           xorg-x11-drv-mtrack
 Version:        git
-Release:        3
+Release:        1
 Summary:        Multitouch touchpad driver
 
 License:        GPLv2
@@ -39,6 +39,16 @@ libtool --finish %{_buildrootdir}/xorg-x11-drv-mtrack*/usr/lib64/xorg/modules/in
 
 
 %changelog
+* Thu Jun 09 2016 Gianguido Sorà <g.sora4@gmail.com>
+- this time be a good release number please (g.sora4@gmail.com)
+- ffs (g.sora4@gmail.com)
+- remove fedora release from version tag (g.sora4@gmail.com)
+
+* Thu Jun 09 2016 Gianguido Sorà <g.sora4@gmail.com>
+- this time be a good release number please (g.sora4@gmail.com)
+- ffs (g.sora4@gmail.com)
+- remove fedora release from version tag (g.sora4@gmail.com)
+
 * Thu Jun 09 2016 Gianguido Sorà <g.sora4@gmail.com>
 - ffs (g.sora4@gmail.com)
 - remove fedora release from version tag (g.sora4@gmail.com)
