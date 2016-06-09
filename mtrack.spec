@@ -1,6 +1,6 @@
 Name:           xorg-x11-drv-mtrack
 Version:        git
-Release:        2%{?dist}
+Release:        3
 Summary:        Multitouch touchpad driver
 
 License:        GPLv2
