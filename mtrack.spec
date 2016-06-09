@@ -1,13 +1,13 @@
 Name:           xorg-x11-drv-mtrack
 Version:        git
-Release:        1
+Release:        3
 Summary:        Multitouch touchpad driver
 
 License:        GPLv2
 URL:            https://github.com/p2rkw/xf86-input-mtrack/
 Source0:        https://github.com/p2rkw/xf86-input-mtrack/
 
-BuildRequires:  xorg-x11-util-macros xorg-x11-server-devel mtdev-devel
+BuildRequires:  xorg-x11-util-macros xorg-x11-server-devel mtdev-devel git
 Requires:       mtdev 
 
 %description
@@ -39,6 +39,13 @@ libtool --finish %{_buildrootdir}/xorg-x11-drv-mtrack*/usr/lib64/xorg/modules/in
 
 
 %changelog
+* Thu Jun 09 2016 Gianguido Sorà <g.sora4@gmail.com>
+- Revert "add git as a build dependency" (g.sora4@gmail.com)
+- ... (g.sora4@gmail.com)
+- this time be a good release number please (g.sora4@gmail.com)
+- ffs (g.sora4@gmail.com)
+- remove fedora release from version tag (g.sora4@gmail.com)
+
 * Thu Jun 09 2016 Gianguido Sorà <g.sora4@gmail.com>
 - this time be a good release number please (g.sora4@gmail.com)
 - ffs (g.sora4@gmail.com)
