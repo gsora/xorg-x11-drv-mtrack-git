@@ -1,6 +1,6 @@
 Name:           xorg-x11-drv-mtrack
 Version:        git
-Release:        3%{?dist}
+Release:        1%{?dist}
 Summary:        Multitouch touchpad driver
 
 License:        GPLv2
@@ -39,6 +39,9 @@ libtool --finish %{_buildrootdir}/xorg-x11-drv-mtrack*/usr/lib64/xorg/modules/in
 
 
 %changelog
+* Thu Jun 09 2016 Gianguido Sorà <g.sora4@gmail.com> git-1
+- new package built with tito
+
 * Thu Jun 09 2016 Gianguido Sorà <g.sora4@gmail.com> - git-3
 - First RPM release, built against commit c8a1f85 of
   https://github.com/p2rkw/xf86-input-mtrack
