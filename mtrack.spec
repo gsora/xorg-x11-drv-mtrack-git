@@ -7,7 +7,7 @@ License:        GPLv2
 URL:            https://github.com/p2rkw/xf86-input-mtrack/
 Source0:        https://github.com/p2rkw/xf86-input-mtrack/
 
-BuildRequires:  xorg-x11-util-macros xorg-x11-server-devel mtdev-devel git
+BuildRequires:  xorg-x11-util-macros xorg-x11-server-devel mtdev-devel
 Requires:       mtdev 
 
 %description
