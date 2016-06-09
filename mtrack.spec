@@ -20,14 +20,14 @@ git clone https://github.com/p2rkw/xf86-input-mtrack/ $RPM_BUILD_DIR
 
 %build
 autoreconf --install
-./configure --with-xorg-module-dir=/usr/lib64/xorg/modules
+./configure --with-xorg-module-dir=%_libdir/xorg/modules
 make %{?_smp_mflags}
 
 
 %install
 rm -rf $RPM_BUILD_ROOT
 %make_install
-libtool --finish %{_buildrootdir}/xorg-x11-drv-mtrack*/usr/lib64/xorg/modules/input
+libtool --finish %{_buildrootdir}/xorg-x11-drv-mtrack*/%_libdir/xorg/modules/input
 
 %files
 %doc
